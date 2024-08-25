@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3055
+    working_dir: /app
+    volumes:
+      - ./:/app
+      # - ./config.yaml:/app/config.yaml

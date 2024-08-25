@@ -1,0 +1,14 @@
+export enum CustomStatuses {
+  Failed,
+  Succeed,
+}
+
+export const CUSTOM_ERROR_CODES = {
+  PROBLEM_WITH_REQUEST: 'BAD_REQUEST',
+  SERVER_ERROR: 'INTERNAL_SERVER_ERROR',
+};
+
+export enum CODE_ERROR_RESPONSE {
+  INTERNAL_SERVER_ERROR = 'INTERNAL_SERVER_ERROR',
+  BAD_REQUEST = 'BAD_REQUEST',
+}
