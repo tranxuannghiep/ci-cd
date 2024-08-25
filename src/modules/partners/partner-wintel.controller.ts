@@ -83,7 +83,7 @@ export class PartnerWintelController {
   }
 
   @Post('/order')
-  @ApiOperation({ summary: 'Create Order kit' })
+  @ApiOperation({ summary: 'Create order kit' })
   @ApiResponse({ status: 200, type: ResultResponse })
   async createOrder(@Body() body: CreateOrderWintelDto) {
     const packages = await this.svc.createOrder({
