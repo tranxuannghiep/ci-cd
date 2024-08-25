@@ -25,4 +25,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+
+    - name: Build project
+      run: npm run build
     - run: pm2 restart daunoi
