@@ -1,6 +1,6 @@
 server:
   httpPort: 3055
-  swaggerPath: '/swagger'
+  swaggerPath: '/api/v1/swagger'
 
 log:
   consoleLevel: debug
