@@ -32,7 +32,7 @@ function setupSwagger(path: string, app: any) {
       cacheControl: false,
       etag: false,
     },
-    customSiteTitle: 'DTH Restful API Dau Noi Version 1',
+    customSiteTitle: 'Restful API Dau Noi Version 1',
   };
   SwaggerModule.setup(path, app, document, customOptions);
 }
