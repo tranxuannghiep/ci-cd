@@ -1,0 +1,7 @@
+server:
+  httpPort: 3055
+  swaggerPath: '/swagger'
+
+log:
+  consoleLevel: debug
+  consoleJSONFormat: 'false'
