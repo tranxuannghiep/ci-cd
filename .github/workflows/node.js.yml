@@ -28,6 +28,6 @@ jobs:
 
     - name: Build project
       run: npm run build
-    - run: node dist/main.js
+    - run: node dist/main.js &
     # - run: pm2 restart daunoi
     # - run: pm2 start dist/main.js --name daunoi -f
