@@ -15,7 +15,7 @@ import { HttpExceptionFilter } from './shared/exception/http-exception';
 
 function setupSwagger(path: string, app: any) {
   let swaggerBuilder = new DocumentBuilder()
-    .setTitle('Dau Noi API')
+    .setTitle('CI CD')
     .setVersion('1.0');
 
   swaggerBuilder = addBearerAuth(swaggerBuilder, {
